@@ -3,8 +3,7 @@ import numpy as np
 from PIL import Image
 from tensorflow.keras.models import load_model
 
-# Load model
-model = load_model("waste_classifier.h5")
+model = load_model("waste_classifier.keras")
 
 class_names = ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
 
